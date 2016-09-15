@@ -1,0 +1,5 @@
+<button class="sky-show-more-toggle" ng-click="$ctrl.toggle()" ng-bind="$ctrl.label"></button>
+
+<div class="sky-show-more-container" ng-class="{open:$ctrl.isOpen}">
+    <div class="sky-show-more-content" ng-transclude></div>
+</div>
